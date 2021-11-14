@@ -1,7 +1,7 @@
 baseURL: https://neighbourhood-trajectories.netlify.app
 languageCode: en-us
 defaultContentLanguage: en
-title: Cupper
+title: Trajectories of Spatial Inequality
 theme: "cupper-hugo-theme"
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
@@ -17,7 +17,7 @@ imaging:
   quality: 99
 
 params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
+  description:
   homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
@@ -43,18 +43,28 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
-      url: /post/
-      weight: 2
-    - name: Tags
-      url: /tags/
+    - name: Research team
+      url: /research-team/
+      weight: 2    
+    - name: Articles
+      url: /articles/
       weight: 3
-    - name: About
-      url: /about/
+    - name: Policy briefs
+      url: /policy-briefs/
       weight: 4
-    - name: RSS
-      url: /index.xml
+    - name: Interactive maps
+      url: /interactive-maps/
       weight: 5
+    - name: Open data
+      url: /open-data/
+      weight: 6
+    - name: Media
+      url: /media/
+      weight: 7
+    - name: R package
+      url: /r-package/
+      weight: 8
+
 
 markup:
   defaultMarkdownHandler: goldmark
