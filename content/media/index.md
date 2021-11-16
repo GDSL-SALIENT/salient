@@ -8,4 +8,4 @@ weight: 100
 CARTO Map of The Month: Trajectories of Neighbourhood Change
 Read the article [here](https://carto.com/blog/trajectories-of-neighbourhood-change-map/)
 
-![](images/carto_map_month.png)
+[![](images/carto_map_month.png)](https://carto.com/blog/trajectories-of-neighbourhood-change-map/)
